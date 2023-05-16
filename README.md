@@ -11,7 +11,7 @@ node{
 
 stage('git checkout'){
 
-  git branch: 'main', url: 'https://github.com/ashu180674/task1.git'
+  git branch: 'main', url: 'https://github.com/ashu180674/jenkins-pipeline.git'
 } stage('copy dockerfile to docker server'){
 
   sshagent(['slave1']) {
